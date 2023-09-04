@@ -1,0 +1,3 @@
+C:/Users/matlo/CLionProjects/Atividade de Algoritmo 1/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/matlo/CLionProjects/Atividade de Algoritmo 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/matlo/CLionProjects/Atividade de Algoritmo 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
