@@ -9,6 +9,9 @@ int main(){
     double FormulaDoTermoGeral;
     double SomaDosTermos;
     int valores[2];
+    char respostaposicao[5];
+    int posicaovalor;
+    int resposta2posicao;
 
 
     printf("Qual a progressao que iremos usar: PA ou PG?\n");
@@ -28,6 +31,20 @@ int main(){
 
         printf("O resultado da formula do termo geral e %.0lf\n", FormulaDoTermoGeral);
         printf("A soma dos termos da PA e %.0lf\n", SomaDosTermos);
+
+        printf("Voce deseja achar um valor dessa progressao?\n");
+        scanf("%s" ,respostaposicao);
+
+        if(strcmp(respostaposicao, "Sim") == 0 || strcmp(respostaposicao, "sim") == 0 || strcmp(respostaposicao, "s") == 0){
+            printf("Insira qual posicao de valor voce deseja encontrar:\n");
+            scanf("%d", &posicaovalor);
+
+            for (int i = 1; i < posicaovalor; i++){
+               resposta2posicao = valores[0] + razao;
+               valores[0] = resposta2posicao;
+            }
+            printf("O valor do termo %d e %d\n", posicaovalor, resposta2posicao);
+        }
     }
 
 
